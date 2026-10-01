@@ -1,8 +1,9 @@
-# Claude Code personal files
+# Local development instructions
+AGENTS.md
+CLAUDE.md
 CLAUDE.local.md
-.claude/settings.local.json
-.claude/logs/
-.claude/agent-memory-local/
+PLAN.md
+.claude/
 
 # Secrets
 .env
