@@ -1,0 +1,15 @@
+# Claude Code personal files
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/logs/
+.claude/agent-memory-local/
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+web-ext-artifacts/
+.amo-upload-uuid
+node_modules/
+*.xpi

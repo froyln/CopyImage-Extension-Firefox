@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Convert Image",
+  "version": "1.0.2",
+  "description": "Right-click any image to save or copy it as PNG or JPG, whatever its original format (webp, avif, gif...).",
+  "icons": { "16": "icon.svg", "32": "icon.svg", "48": "icon.svg", "96": "icon.svg", "128": "icon.svg" },
+  "permissions": ["menus", "downloads", "clipboardWrite", "notifications", "<all_urls>"],
+  "background": {
+    "scripts": ["name.js", "background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "copy-image-as@froyln",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": { "required": ["none"] }
+    }
+  }
+}
