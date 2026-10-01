@@ -31,3 +31,5 @@ npx --yes web-ext lint -s src
 ```
 
 Run the extension in a temporary Firefox profile with `npx web-ext run -s src`.
+
+See [the development guide](docs/development.md) for architecture, permissions, manual verification, and signing.
